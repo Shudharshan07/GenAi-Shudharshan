@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function find()
+            {   
+                var w = parseFloat(document.getElementById("weight").value);
+                var h = parseFloat(document.getElementById("height").value);
+
+                document.getElementById("final").value = (w/(h*h));
+            }
+                
+        </script>
+    </head>
+    </body>
+        <input id="weight" placeholder="weight">
+        <input id="height" placeholder="height">
+        <input id="final" placeholder="result">
+        <button onclick="find()">Calculate</button>
+        <button>Clear</button>
+    <body>
+        
+</html>
